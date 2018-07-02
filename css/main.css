@@ -1,10 +1,11 @@
-/*
-body{
+body {
   background : url(../images/questionmarks.png);
+
 }
-*/
 #app {
-  margin: 50px 0 50px 0;
+  margin: 50px 0 100px 0;
+  padding: 0px 5px 50px 0px;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .center {
@@ -57,8 +58,8 @@ img {
   height: 80px;
   border-radius: 50%;
   position: absolute;
-  top: 110px;
-  left: 950px;
+  top: 70%;
+  left: 50%
 }
 
 .footerimg {
