@@ -1,5 +1,13 @@
+/*
 body{
-  /*background : url(../images/questionmarks.png);*/
+  background : url(../images/questionmarks.png);
+}
+*/
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 0 auto 0;
 }
 
 .center {
@@ -22,3 +30,7 @@ img {
   bottom: 0;
 }
 
+#input-parent {
+  width:4
+  margin: 0 auto;
+}

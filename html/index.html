@@ -2,14 +2,11 @@
 <html lang="en">
   <head>
     <title>Guessing Game</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <!-- Bootstrap and CSS here-->
-
-
+    <link rel="stylesheet" type = "text/css" href="../css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
-
-      <div id='app'>
+      <div id='app' class = 'container-fluid'>
 
         <div id='headers' class = 'center'>
           <!-- Title and subtitles! -->
@@ -21,10 +18,10 @@
 
           <div id='input-parent'>
             <!-- Player's guess input, and submit button -->
-            <form action ='#' method = 'POST'>
+            <form class = 'form-group' action ='#' method = 'POST'>
               <span>
-                <input type = 'number' min = "1" max = "100" placeholder = '10' autofocus>
-                <button type = 'submit'>Guess</button>
+                <input id = 'player-input' type = 'number' min = "1" max = "100" placeholder = '10' autofocus>
+                <button class = "btn btn-success"id = 'submit' type = 'submit'>Guess</button>
               </span>
             </form>
           </div>
@@ -38,36 +35,32 @@
               <li>-</li>
               <li>-</li>
             </ul>
-            <
           </div>
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button>Reset</button>
-            <button>Hint</button>
+            <button class = 'btn btn-danger'>Reset</button>
+            <button class = 'btn btn-info'>Hint</button>
           </div>
         </div>
       </div>
 
 
 
-    <div id='footer' class = 'center'>
-        <div>
-          <div class=''>
-            <img src='../images/fa-logo@2x.png'></img>
+    <footer id='footer' class = 'center container-fluid'>
+        <div class = 'row'>
+          <div class='col-xs-4'>
+            <img src='../images/fa-logo@2x.png'>
           </div>
 
-          <div class=''>
+          <div class='col-xs-4'>
             <h4>Project by Andy Poon</h4>
           </div>
 
-          <div class=''>
-            <img src='../images/grace_hopper_academy.png'></img>
+          <div class='col-xs-4'>
+            <img src='../images/grace_hopper_academy.png'>
           </div>
-
-
         </div>
-    </div>
-
+    </footer>
   </body>
 </html>
