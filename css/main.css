@@ -3,11 +3,8 @@ body{
   background : url(../images/questionmarks.png);
 }
 */
-#main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto 0 auto 0;
+#app {
+  margin: 50px 0 50px 0;
 }
 
 .center {
@@ -31,6 +28,44 @@ img {
 }
 
 #input-parent {
-  width:4
-  margin: 0 auto;
+  margin: 0 auto 50px;
+  position: relative;
 }
+
+#guesses ul li{
+  display: inline;
+  border: solid 2px black;
+  border-radius: 10%;
+  padding: 10px 30px 10px 30px;
+  margin: 5px 5px 5px 5px;
+  font-size: 100px;
+}
+
+#menu-btns {
+  margin-top: 20px;
+}
+
+#player-input{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  font-size: 6rem;
+}
+
+#submit{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 110px;
+  left: 950px;
+}
+
+.footerimg {
+  margin: auto;
+}
+
+#headers{
+  margin-bottom: 50px;
+}
+
