@@ -1,11 +1,11 @@
 body {
-  background-color: #1D201F;
+  background-color: #1A2421;
   height: 100%;
 }
 #app {
   margin: 50px 0 100px 0;
   padding: 0px 5px 50px 0px;
-  background-color: #8F91A2;
+  background-color: #EFD6AC;
   color: black;
 }
 
@@ -23,7 +23,7 @@ img {
 }
 
 #footer {
-  background-color:#8F91A2;
+  background-color:#3B3561;
   color: black;
   margin-top: 5%;
 }
@@ -31,6 +31,10 @@ img {
 #input-parent {
   margin: 0 auto 50px;
   position: relative;
+}
+
+#input-parent .btn{
+  background-color:#C44900;
 }
 
 #guesses ul li{
