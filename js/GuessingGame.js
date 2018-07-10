@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  console.log('READY');
+})
+
 function generateWinningNumber(){
   var max = 101; //exclusive upper range
   var min = 1; //inclusive lower

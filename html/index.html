@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Guessing Game</title>
+    <title>Guessing Game</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type = "text/css" href="../css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
     </script>
-    <script defer src = '../js/GuessingGame.js' ></script>
+    <script defer src = '../js/GuessingGame.js'></script>
   </head>
   <body>
     <div class = 'container-fluid'>
-    <div class = 'col-xs-3'></div>
+    <div class = 'col-md-3'></div>
 
-      <div id='app' class = 'col-xs-6'>
+      <div id='app' class = 'col-xs-12 col-md-6'>
 
         <div id='headers' class = 'center'>
           <!-- Title and subtitles! -->
@@ -29,7 +26,7 @@
             <!-- Player's guess input, and submit button -->
             <form class = 'form-group' action ='#' method = 'POST'>
               <span>
-                <input id = 'player-input'  type = 'number' min = "1" max = "100" placeholder = '#' autofocus>
+                <input class = 'center' id = 'player-input'  type = 'number' min = "1" max = "100" placeholder = '#' autofocus>
                 <button class = "btn btn-success" id = 'submit' type = 'submit'>Guess</button>
               </span>
             </form>
@@ -55,20 +52,20 @@
           </div>
         </div>
       </div>
-      <div class = 'col-xs-3'></div>
+      <div class = 'col-md-3'></div>
     </div>
 
     <footer id='footer' class = 'center container-fluid'>
         <div class = 'row'>
-          <div class='col-xs-4'>
+          <div class='col-md-4'>
             <img class = 'img-responsive footerimg' src='../images/fa-logo@2x.png'>
           </div>
 
-          <div class='col-xs-4'>
-            <h4>Project by Andy Poon</h4>
+          <div class='col-md-4 '>
+            <h4 class ='footerimg'>Project by Andy Poon</h4>
           </div>
 
-          <div class='col-xs-4'>
+          <div class='col-md-4'>
             <img class = 'img-responsive footerimg' src='../images/grace_hopper_academy.png'>
           </div>
         </div>
