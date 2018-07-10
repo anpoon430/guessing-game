@@ -1,5 +1,9 @@
 $(document).ready(function(){
-  console.log('READY');
+  var newGame = new Game();
+  $("#submit").click(function(){;
+    var outcome = newGame.playersGuessSubmission(+$('#player-input').val());
+    console.log(outcome);
+  });
 })
 
 function generateWinningNumber(){
