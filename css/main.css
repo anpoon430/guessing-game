@@ -6,7 +6,6 @@ body {
   margin: 50px 0 100px 0;
   padding: 0px 5px 50px 0px;
   background-color: #8F91A2;
-  /*box-shadow: 5px 5px 5px 5px;*/
   color: black;
 }
 
@@ -19,12 +18,14 @@ ul {
 }
 img {
   display: inline;
+  width: 35%;
+  height: 35%;
 }
+
 #footer {
-  border-top: solid 2px black;
-  background-color:#1D201F;
+  background-color:#8F91A2;
+  color: black;
   margin-top: 5%;
-  padding-bottom: 1%;
 }
 
 #input-parent {
@@ -61,11 +62,13 @@ img {
   left: 50%
 }
 
-.footerimg {
+/* .footerimg {
+  display: inline;
+  vertical-align: middle;
   margin: auto;
   width: 35%;
   height: 35%;
-}
+} */
 
 #headers{
   margin-bottom: 50px;

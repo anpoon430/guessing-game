@@ -5,7 +5,7 @@ $(document).ready(function(){
 function generateWinningNumber(){
   var max = 101; //exclusive upper range
   var min = 1; //inclusive lower
-  return Math.floor(Math.random() * (max - min)) + 1;
+  return Math.floor(Math.random() * (max - min)) + min;
 }
 
 function shuffle(arr){
@@ -53,10 +53,11 @@ Game.prototype.checkGuess = function(){
   if (this.pastGuesses.length === 5){
     return 'You Lose.';
   }
-  if (this.difference() < 10) return "You're burning up!";
-  if (this.difference() < 25) return "You're lukewarm.";
-  if (this.difference() < 50) return "You're a bit chilly.";
-  if (this.difference() < 100) return "You're ice cold!";
+  var diff = this.difference();
+  if (diff < 10) return "You're burning up!";
+  if (diff < 25) return "You're lukewarm.";
+  if (diff < 50) return "You're a bit chilly.";
+  if (diff < 100) return "You're ice cold!";
 }
 
 Game.prototype.provideHint = function(){
