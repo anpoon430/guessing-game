@@ -5,8 +5,8 @@ body {
 #app {
   margin: 50px 0 100px 0;
   padding: 0px 5px 50px 0px;
-  background-color: #EFD6AC;
-  color: black;
+  background-color: #136F63;
+  color: rgb(205, 205, 205);
 }
 
 .center {
@@ -23,7 +23,7 @@ img {
 }
 
 #footer {
-  background-color:#3B3561;
+  background-color:#7C6C77;
   color: black;
   margin-top: 5%;
 }
@@ -39,13 +39,25 @@ img {
 
 #guesses ul li{
   display: inline;
-  border: solid 2px black;
+  border: solid 2px white;
   border-radius: 10%;
   padding: 10px 30px 10px 30px;
   margin: 5px 5px 5px 5px;
   font-size: 100px;
 }
 
+.btn-mahogany{
+  background-color: #C44900;
+
+}
+.btn-koamaru{
+  background-color: #3B3561;
+
+}
+.btn-jungle{
+  background-color: #1A2421;
+
+}
 #menu-btns {
   margin-top: 20px;
 }
