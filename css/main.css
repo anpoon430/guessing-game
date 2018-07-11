@@ -12,10 +12,7 @@ body {
 .center {
   text-align: center;
 }
-ul {
-  list-style: none;
-  padding: 0;
-}
+
 img {
   display: inline;
   width: 35%;
@@ -23,7 +20,7 @@ img {
 }
 
 #footer {
-  background-color:#7C6C77;
+  background-color:#136F63;
   color: black;
   margin-top: 5%;
 }
@@ -37,13 +34,16 @@ img {
   background-color:#C44900;
 }
 
+#guesses {
+  margin-top: 5%;
+}
+
 #guesses ul li{
-  display: inline;
   border: solid 2px white;
   border-radius: 10%;
   padding: 10px 30px 10px 30px;
-  margin: 5px 5px 5px 5px;
-  font-size: 100px;
+  margin: 10px 5px 5px 5px;
+  font-size: 80px;
 }
 
 .btn-mahogany{
@@ -78,15 +78,20 @@ img {
   left: 50%
 }
 
-/* .footerimg {
-  display: inline;
-  vertical-align: middle;
-  margin: auto;
-  width: 35%;
-  height: 35%;
-} */
+#message{
+
+}
+#low-guess{
+
+}
+#high-guess{
+
+}
 
 #headers{
   margin-bottom: 50px;
 }
 
+#title {
+  color: white;
+}
