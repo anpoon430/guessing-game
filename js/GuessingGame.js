@@ -26,8 +26,8 @@ $(document).ready(function(){
 
   $('#hint').click(function(){
     var hint = game.provideHint();
-    $('#rightSide').slideDown();
     $('#rightSide').text('Winning numbers are : ' + hint.join(', '));
+    $('#rightSide').slideDown();
     setTimeout(function(){
       $('#rightSide').fadeOut();
     }, 5000);

@@ -78,14 +78,11 @@ img {
   left: 50%
 }
 
-#message{
+#leftSide{
 
 }
-#low-guess{
-
-}
-#high-guess{
-
+#rightSide{
+  font-size: 15px;
 }
 
 #headers{
