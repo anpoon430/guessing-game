@@ -1,6 +1,6 @@
-body {
+
+body{
   background-color: #1A2421;
-  height: 100%;
 }
 #app {
   margin: 50px 0 100px 0;
@@ -92,3 +92,5 @@ img {
 #title {
   color: white;
 }
+
+

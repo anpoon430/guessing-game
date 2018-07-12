@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type = "text/css" href="../css/main.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -9,7 +10,7 @@
     </script>
     <script defer src = '../js/GuessingGame.js'></script>
   </head>
-  <body>
+  <body class='bkgd'>
     <div class = 'container-fluid'>
     <div class = 'col-md-3'></div>
 
@@ -24,16 +25,16 @@
 
         <div id='main' class = 'center'>
 
-          <div id='input-parent row'>
+          <div id='input-parent'>
             <!-- Player's guess input, and submit button -->
-              <span class = 'row'>
-                <p class = 'col-xs-4' id = 'leftSide'></p>
-                <span class = 'col-xs-4'>
+              <div class = 'row'>
+                <div class = 'col-xs-4'><p id = 'leftSide'></p></div>
+                <div class = 'col-xs-4'>
                   <input class = 'center' id = 'player-input'  type = 'number' min = "1" max = "100" autofocus>
                   <button class = "btn btn-mahogany" id = 'submit'>Guess</button>
-                </span>
-                <p class = 'col-xs-4' id = 'rightSide'></p>
-              </span>
+                </div>
+                <div class = 'col-xs-4'><p id = 'rightSide'></p></div>
+              </div>
           </div>
 
           <div id='guesses'>
@@ -66,7 +67,7 @@
           </div>
 
           <div class='col-md-4'>
-            <h4 class ='footerimg'>Project by Andy Poon</h4>
+            <h4>Project by Andy Poon</h4>
           </div>
 
           <div class='col-md-4'>
