@@ -27,7 +27,6 @@ $(document).ready(function(){
   $('#hint').click(function(){
     var hint = game.provideHint();
     $('#title').text('Hint: ' + hint.join(', '));
-    $('#title').slideDown();
     setTimeout(function(){
       $('#title').text(originalTitle);
     }, 5000);
