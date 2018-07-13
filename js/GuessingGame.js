@@ -26,10 +26,10 @@ $(document).ready(function(){
 
   $('#hint').click(function(){
     var hint = game.provideHint();
-    $('#rightSide').text('Winning numbers are : ' + hint.join(', '));
-    $('#rightSide').slideDown();
+    $('#title').text('Hint: ' + hint.join(', '));
+    $('#title').slideDown();
     setTimeout(function(){
-      $('#rightSide').fadeOut();
+      $('#title').text(originalTitle);
     }, 5000);
   });
 });
